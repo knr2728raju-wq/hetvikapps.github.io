@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apps — Hetvik Apps</title>
+  <meta name="description" content="Explore Android apps by Hetvik Apps, including ExpenseNest — a fast, clean and privacy-first expense tracker available on Google Play.">
+  <meta name="author" content="Hetvik Apps">
+  <meta name="theme-color" content="#0F172A">
+  <link rel="canonical" href="https://hetvikapps.com/apps.html">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Hetvik Apps">
+  <meta property="og:title" content="Apps — Hetvik Apps">
+  <meta property="og:description" content="Explore ExpenseNest and more Android apps by Hetvik Apps.">
+  <meta property="og:url" content="https://hetvikapps.com/apps.html">
+  <meta property="og:image" content="https://hetvikapps.com/assets/images/og-image.svg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Apps — Hetvik Apps">
+  <meta name="twitter:image" content="https://hetvikapps.com/assets/images/og-image.svg">
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "MobileApplication",
+    "name": "ExpenseNest",
+    "operatingSystem": "Android",
+    "applicationCategory": "FinanceApplication",
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+    "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.8", "ratingCount": "1200" },
+    "author": { "@type": "Organization", "name": "Hetvik Apps" }
+  }
+  </script>
+</head>
+<body>
+  <div class="bg-canvas" aria-hidden="true"></div>
+  <div class="bg-grid" aria-hidden="true"></div>
+  <div class="orb orb-1" aria-hidden="true"></div>
+  <div class="orb orb-2" aria-hidden="true"></div>
+
+  <header class="nav" id="nav">
+    <div class="container">
+      <a href="index.html" class="brand" aria-label="Hetvik Apps home">
+        <span class="brand-mark"><i class="fa-solid fa-bolt"></i></span>
+        <span>Hetvik<b>Apps</b></span>
+      </a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="index.html" data-nav="index.html">Home</a>
+        <a href="about.html" data-nav="about.html">About</a>
+        <a href="apps.html" data-nav="apps.html">Apps</a>
+        <a href="support.html" data-nav="support.html">Support</a>
+        <a href="contact.html" data-nav="contact.html">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="icon-btn theme-toggle" data-theme-toggle aria-label="Toggle dark and light mode"><i class="fa-solid fa-moon"></i><i class="fa-solid fa-sun"></i></button>
+        <a href="apps.html" class="btn btn-primary nav-cta">Explore Apps</a>
+        <button class="hamburger" data-menu-toggle aria-label="Open menu" aria-expanded="false"><i class="fa-solid fa-bars"></i></button>
+      </div>
+    </div>
+  </header>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html" data-nav="index.html">Home</a>
+    <a href="about.html" data-nav="about.html">About</a>
+    <a href="apps.html" data-nav="apps.html">Apps</a>
+    <a href="support.html" data-nav="support.html">Support</a>
+    <a href="contact.html" data-nav="contact.html">Contact</a>
+    <a href="apps.html" class="btn btn-primary btn-block">Explore Apps</a>
+  </div>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <div class="breadcrumb reveal"><a href="index.html">Home</a> <i class="fa-solid fa-chevron-right"></i> <span>Apps</span></div>
+        <h1 class="reveal d1">Our <span class="text-gradient">apps</span></h1>
+        <p class="reveal d2">Carefully built Android apps you can rely on. Here's what we've shipped — with more on the way.</p>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:20px;">
+      <div class="container">
+        <div class="grid" style="gap:28px;">
+
+          <!-- ======== APP: ExpenseNest ======== -->
+          <article class="card app-card reveal">
+            <div class="app-card-inner">
+              <div class="app-visual">
+                <!-- App icon placeholder -->
+                <div class="app-icon" role="img" aria-label="ExpenseNest app icon placeholder"><i class="fa-solid fa-wallet"></i></div>
+                <!-- Screenshots placeholder -->
+                <div class="app-shots" aria-label="App screenshot placeholders">
+                  <div class="app-shot"><i class="fa-solid fa-image"></i></div>
+                  <div class="app-shot"><i class="fa-solid fa-image"></i></div>
+                  <div class="app-shot"><i class="fa-solid fa-image"></i></div>
+                </div>
+                <p style="color:var(--text-mute);font-size:.78rem;text-align:center;">Screenshot placeholders — swap in real store images.</p>
+              </div>
+
+              <div class="app-body">
+                <div class="app-top">
+                  <div>
+                    <h3>ExpenseNest</h3>
+                    <div class="app-tags">
+                      <span class="tag live"><i class="fa-solid fa-circle"></i> Live on Play</span>
+                      <span class="tag"><i class="fa-solid fa-tag"></i> Finance</span>
+                      <span class="tag"><i class="fa-solid fa-code-branch"></i> v1.0.0</span>
+                    </div>
+                  </div>
+                  <div class="quote-stars" aria-label="Rated 4.8 out of 5">★★★★★ <span style="color:var(--text-mute);font-size:.85rem;">4.8</span></div>
+                </div>
+
+                <p>ExpenseNest is a clean, fast expense tracker that makes managing money effortless. Log spending in seconds, see clear summaries, and stay on top of your budget — all wrapped in a beautiful, distraction-free interface.</p>
+
+                <ul class="app-features">
+                  <li><i class="fa-solid fa-check"></i> One-tap expense &amp; income logging</li>
+                  <li><i class="fa-solid fa-check"></i> Smart categories &amp; monthly summaries</li>
+                  <li><i class="fa-solid fa-check"></i> Secure sign-in with Firebase</li>
+                  <li><i class="fa-solid fa-check"></i> Clean charts &amp; spending insights</li>
+                  <li><i class="fa-solid fa-check"></i> Works great offline</li>
+                  <li><i class="fa-solid fa-check"></i> Lightweight &amp; privacy-first</li>
+                </ul>
+
+                <div class="app-actions">
+                  <a href="#" class="btn btn-play" aria-label="Get ExpenseNest on Google Play">
+                    <i class="fa-brands fa-google-play"></i>
+                    <span><small>Get it on</small><b>Google Play</b></span>
+                  </a>
+                  <a href="privacy-policy.html" class="btn btn-ghost"><i class="fa-solid fa-shield-halved"></i> Privacy Policy</a>
+                  <a href="support.html" class="btn btn-ghost"><i class="fa-solid fa-headset"></i> Support</a>
+                </div>
+
+                <div style="display:flex;gap:26px;flex-wrap:wrap;margin-top:22px;color:var(--text-mute);font-size:.86rem;">
+                  <span><b style="color:var(--heading);">Category</b><br>Finance</span>
+                  <span><b style="color:var(--heading);">Version</b><br>1.0.0</span>
+                  <span><b style="color:var(--heading);">Size</b><br>Lightweight</span>
+                  <span><b style="color:var(--heading);">Requires</b><br>Android 7.0+</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- ======== Future apps: duplicate the article above ======== -->
+          <div class="grid grid-3" style="margin-top:4px;">
+            <article class="card coming-card reveal">
+              <i class="fa-solid fa-hourglass-half"></i>
+              <h3>In the works</h3>
+              <p>New app coming soon</p>
+            </article>
+            <article class="card coming-card reveal d1">
+              <i class="fa-solid fa-lightbulb"></i>
+              <h3>On the drawing board</h3>
+              <p>Ideas taking shape</p>
+            </article>
+            <article class="card coming-card reveal d2">
+              <i class="fa-solid fa-plus"></i>
+              <h3>More to come</h3>
+              <p>Watch this space</p>
+            </article>
+          </div>
+
+        </div>
+
+        <div class="callout reveal" style="margin-top:32px;max-width:820px;">
+          <i class="fa-solid fa-circle-info"></i>
+          <div>Adding a new app is easy: copy the ExpenseNest <code>&lt;article class="app-card"&gt;</code> block in <code>apps.html</code>, swap the icon, screenshots, description, features and links — the layout scales to as many apps as you need.</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-sm">
+      <div class="container">
+        <div class="cta-band reveal">
+          <h2>Have feedback on an app?</h2>
+          <p>We read every message. Tell us what you love, what's missing, or what you'd like to see next.</p>
+          <div class="hero-cta" style="justify-content:center;">
+            <a href="contact.html" class="btn btn-primary btn-lg"><i class="fa-solid fa-paper-plane"></i> Contact us</a>
+            <a href="support.html" class="btn btn-ghost btn-lg">Get support</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a href="index.html" class="brand"><span class="brand-mark"><i class="fa-solid fa-bolt"></i></span><span>Hetvik<b>Apps</b></span></a>
+          <p class="foot-about">A modern Android app studio building fast, elegant and privacy-first mobile experiences that people love to use every day.</p>
+          <div class="social-row">
+            <a href="#" class="social-btn" aria-label="Twitter / X"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#" class="social-btn" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="#" class="social-btn" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#" class="social-btn" aria-label="Google Play"><i class="fa-brands fa-google-play"></i></a>
+          </div>
+        </div>
+        <div><h4>Company</h4><ul><li><a href="about.html">About us</a></li><li><a href="apps.html">Our apps</a></li><li><a href="contact.html">Contact</a></li><li><a href="support.html">Support</a></li></ul></div>
+        <div><h4>Apps</h4><ul><li><a href="apps.html">ExpenseNest</a></li><li><a href="apps.html">Coming soon</a></li></ul></div>
+        <div><h4>Legal</h4><ul><li><a href="privacy-policy.html">Privacy Policy</a></li><li><a href="terms.html">Terms &amp; Conditions</a></li><li><a href="app-ads.html">app-ads.txt</a></li></ul></div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span data-year>2025</span> Hetvik Apps. All rights reserved.</span>
+        <div class="fb-links"><a href="privacy-policy.html">Privacy</a><a href="terms.html">Terms</a><a href="contact.html">Contact</a><a href="mailto:support@hetvikapps.com">support@hetvikapps.com</a></div>
+      </div>
+    </div>
+  </footer>
+
+  <button class="to-top" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
