@@ -1,25 +1,144 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0B1120"/>
-      <stop offset="1" stop-color="#0F172A"/>
-    </linearGradient>
-    <linearGradient id="mark" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#2563EB"/>
-      <stop offset="1" stop-color="#38BDF8"/>
-    </linearGradient>
-    <radialGradient id="glow" cx="0.2" cy="0.1" r="0.9">
-      <stop offset="0" stop-color="#2563EB" stop-opacity="0.4"/>
-      <stop offset="1" stop-color="#2563EB" stop-opacity="0"/>
-    </radialGradient>
-  </defs>
-  <rect width="1200" height="630" fill="url(#bg)"/>
-  <rect width="1200" height="630" fill="url(#glow)"/>
-  <g transform="translate(100 210)">
-    <rect width="120" height="120" rx="28" fill="url(#mark)"/>
-    <path d="M38 30h11v24h22V30h11v60h-11V66H49v24H38z" fill="#fff"/>
-  </g>
-  <text x="100" y="410" font-family="Poppins, Arial, sans-serif" font-size="76" font-weight="800" fill="#F8FAFC">Hetvik Apps</text>
-  <text x="102" y="470" font-family="Poppins, Arial, sans-serif" font-size="34" font-weight="500" fill="#A9B4C8">Premium Android apps, crafted for people.</text>
-  <text x="102" y="540" font-family="Poppins, Arial, sans-serif" font-size="26" font-weight="600" fill="#38BDF8">hetvikapps.com</text>
-</svg>
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>app-ads.txt — Hetvik Apps</title>
+  <meta name="description" content="What app-ads.txt is and how Hetvik Apps uses it to authorize sellers of our advertising inventory.">
+  <meta name="author" content="Hetvik Apps">
+  <meta name="theme-color" content="#0F172A">
+  <link rel="canonical" href="https://hetvikapps.com/app-ads.html">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Hetvik Apps">
+  <meta property="og:title" content="app-ads.txt — Hetvik Apps">
+  <meta property="og:description" content="How Hetvik Apps uses app-ads.txt to authorize its ad sellers.">
+  <meta property="og:url" content="https://hetvikapps.com/app-ads.html">
+  <meta property="og:image" content="https://hetvikapps.com/assets/images/og-image.svg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+  <div class="bg-canvas" aria-hidden="true"></div>
+  <div class="bg-grid" aria-hidden="true"></div>
+  <div class="orb orb-1" aria-hidden="true"></div>
+
+  <header class="nav" id="nav">
+    <div class="container">
+      <a href="index.html" class="brand" aria-label="Hetvik Apps home"><span class="brand-mark"><i class="fa-solid fa-bolt"></i></span><span>Hetvik<b>Apps</b></span></a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="index.html" data-nav="index.html">Home</a>
+        <a href="about.html" data-nav="about.html">About</a>
+        <a href="apps.html" data-nav="apps.html">Apps</a>
+        <a href="support.html" data-nav="support.html">Support</a>
+        <a href="contact.html" data-nav="contact.html">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="icon-btn theme-toggle" data-theme-toggle aria-label="Toggle dark and light mode"><i class="fa-solid fa-moon"></i><i class="fa-solid fa-sun"></i></button>
+        <a href="apps.html" class="btn btn-primary nav-cta">Explore Apps</a>
+        <button class="hamburger" data-menu-toggle aria-label="Open menu" aria-expanded="false"><i class="fa-solid fa-bars"></i></button>
+      </div>
+    </div>
+  </header>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html" data-nav="index.html">Home</a>
+    <a href="about.html" data-nav="about.html">About</a>
+    <a href="apps.html" data-nav="apps.html">Apps</a>
+    <a href="support.html" data-nav="support.html">Support</a>
+    <a href="contact.html" data-nav="contact.html">Contact</a>
+    <a href="apps.html" class="btn btn-primary btn-block">Explore Apps</a>
+  </div>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <div class="breadcrumb reveal"><a href="index.html">Home</a> <i class="fa-solid fa-chevron-right"></i> <span>app-ads.txt</span></div>
+        <h1 class="reveal d1">app-ads<span class="text-gradient">.txt</span></h1>
+        <p class="reveal d2">How Hetvik Apps authorizes the sellers of our mobile advertising inventory.</p>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:20px;">
+      <div class="container" style="max-width:820px;">
+
+        <div class="doc-section reveal" id="what">
+          <h2><span class="n"><i class="fa-solid fa-circle-question"></i></span> What is app-ads.txt?</h2>
+          <p><strong>app-ads.txt</strong> (Authorized Sellers for Apps) is an IAB Tech Lab standard that lets app developers publicly declare which companies are authorized to sell their advertising inventory. It's the mobile-app counterpart of <code>ads.txt</code> for websites.</p>
+          <p>By publishing this file at our website root, we help advertisers verify that ads bought against our apps are legitimate — reducing ad fraud and protecting both advertisers and our users.</p>
+        </div>
+
+        <div class="doc-section reveal d1" id="how">
+          <h2><span class="n"><i class="fa-solid fa-gears"></i></span> How it works</h2>
+          <ul>
+            <li>Each app's store listing points to our developer website (<code>hetvikapps.com</code>).</li>
+            <li>Ad platforms crawl <code>https://hetvikapps.com/app-ads.txt</code>.</li>
+            <li>They match the entries in the file against the seller trying to sell our inventory.</li>
+            <li>Only authorized sellers listed in the file are trusted.</li>
+          </ul>
+        </div>
+
+        <div class="doc-section reveal d1" id="ours">
+          <h2><span class="n"><i class="fa-solid fa-file-lines"></i></span> Our app-ads.txt</h2>
+          <p>Below is the exact content of our live file. You can open the raw file or copy the record.</p>
+
+          <div class="codeblock">
+            <div class="codeblock-head">
+              <span class="dots"><i style="background:#ff5f56"></i><i style="background:#ffbd2e"></i><i style="background:#27c93f"></i></span>
+              <span>app-ads.txt</span>
+              <button class="copy-btn" data-copy="#appads"><i class="fa-regular fa-copy"></i> Copy</button>
+            </div>
+            <pre id="appads">google.com, pub-9226083958766166, DIRECT, f08c47fec0942fa0</pre>
+          </div>
+
+          <div class="hero-cta" style="margin-top:6px;">
+            <a href="app-ads.txt" class="btn btn-primary" target="_blank" rel="noopener"><i class="fa-solid fa-up-right-from-square"></i> Open raw app-ads.txt</a>
+          </div>
+        </div>
+
+        <div class="doc-section reveal d1" id="fields">
+          <h2><span class="n"><i class="fa-solid fa-list-check"></i></span> Understanding the record</h2>
+          <ul>
+            <li><strong>google.com</strong> — the domain of the advertising system (the seller).</li>
+            <li><strong>pub-9226083958766166</strong> — our publisher account ID with that ad system.</li>
+            <li><strong>DIRECT</strong> — indicates we have a direct relationship with the seller.</li>
+            <li><strong>f08c47fec0942fa0</strong> — the ad system's TAG-ID certification authority ID.</li>
+          </ul>
+          <div class="callout"><i class="fa-solid fa-circle-info"></i><div>Keep the <code>app-ads.txt</code> file at your domain root so it resolves at <code>https://hetvikapps.com/app-ads.txt</code>. Ad networks may take a few days to crawl and verify it.</div></div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a href="index.html" class="brand"><span class="brand-mark"><i class="fa-solid fa-bolt"></i></span><span>Hetvik<b>Apps</b></span></a>
+          <p class="foot-about">A modern Android app studio building fast, elegant and privacy-first mobile experiences that people love to use every day.</p>
+          <div class="social-row">
+            <a href="#" class="social-btn" aria-label="Twitter / X"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#" class="social-btn" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="#" class="social-btn" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#" class="social-btn" aria-label="Google Play"><i class="fa-brands fa-google-play"></i></a>
+          </div>
+        </div>
+        <div><h4>Company</h4><ul><li><a href="about.html">About us</a></li><li><a href="apps.html">Our apps</a></li><li><a href="contact.html">Contact</a></li><li><a href="support.html">Support</a></li></ul></div>
+        <div><h4>Apps</h4><ul><li><a href="apps.html">ExpenseNest</a></li><li><a href="apps.html">Coming soon</a></li></ul></div>
+        <div><h4>Legal</h4><ul><li><a href="privacy-policy.html">Privacy Policy</a></li><li><a href="terms.html">Terms &amp; Conditions</a></li><li><a href="app-ads.html">app-ads.txt</a></li></ul></div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span data-year>2025</span> Hetvik Apps. All rights reserved.</span>
+        <div class="fb-links"><a href="privacy-policy.html">Privacy</a><a href="terms.html">Terms</a><a href="contact.html">Contact</a><a href="mailto:support@hetvikapps.com">support@hetvikapps.com</a></div>
+      </div>
+    </div>
+  </footer>
+
+  <button class="to-top" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
